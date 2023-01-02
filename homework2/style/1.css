@@ -1,0 +1,25 @@
+h1{
+    color: blueviolet;
+}
+h2{
+    color: brown;
+}
+.green-text{
+    color: green;
+}
+div{
+    color: #00ffff;
+}
+#main{
+    color: darkred;
+}
+a {
+    color: crimson;
+}
+.size{
+    width: 300;
+    margin: 0 auto;
+    border: 5px solid darkblue;
+    padding: 10px;
+
+}
