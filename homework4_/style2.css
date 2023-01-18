@@ -108,11 +108,18 @@ h1 {
     color: #000000;
         
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
 
-.text,
-.foto-phone {
-    display: inline-block
-}
 .main {
     padding: 10px 16px;
     text-align: center;
@@ -134,13 +141,15 @@ margin-left: 24px;
     padding-left: 81px;
     padding-right: 81px;
     
-   
+  } 
  
-}
+
 .text {
     width: 631px;
     vertical-align: middle;
     padding-left: 81px;
+    margin-top: 266px;
+    margin-bottom: 266px;
         
     }
 .p-phone {
@@ -181,15 +190,8 @@ color: #575757;
     padding-top: 12px;
     
 }
-.Authors {
-    margin-bottom: 143px;
-}
-.wrapper-column1,
-.foto,
-.wrapper-column2,
-.arrow {
-    display: inline-block
-}
+
+
 
 h2 {
     font-family: 'Poppins';
@@ -200,19 +202,18 @@ h2 {
     color: #000000;
     }
     .foto {
-        padding-right: 46px;
-        padding-top: 49px;
+       
+        padding-top: 12px;
         width: 150px;
         height: 150px
     }
     .wrapper-column1 {
-        padding-top: 36px;
-        padding-right: 112px;
+       
         width: 645px;
         
     } 
-    h3 {
-        font-family: 'Poppins';
+ h3 {
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 27px;
@@ -231,21 +232,29 @@ color: #000000;
         color: #DEA405;
     }
 .wrapper-column2 {
-    padding-top: 43px;
-    padding-right: 66px;
+       
     width: 237px;
     vertical-align: top;
+}
+.authors1 {
+    width: 841px;
+}
+.authors2 {
+    width: 260px;
+}
+.authors1,
+.authors2 {
+    padding-bottom: 143px;
+    padding-top: 36px;
+    margin: 0 auto;
 }
 .arrow {
 
 width: 10.09px;
 height: 15.63px;
-padding-right: 8px;
+padding-top: 64px;
 color: #000000;
-padding-top: 108px;
-padding-bottom: 80px;
-margin: 0 auto;
-vertical-align: top;
+
 
 }
 .mark {
@@ -281,38 +290,36 @@ vertical-align: bottom;
 
 }
 
-.foto_forwho,
-.text1 {
-    display: inline-block;
-    
 
-}
 .row1 {
     padding-top: 64px;
     padding-bottom: 46px;
     width: 1262px;
 height: 125px;
-;
+
 }
 .row2 {
     padding-bottom: 64px;
     width: 1262px;
-height: 125px;
+
+}
+.item {
+    width: 607px;
 }
 .text1 {
 width: 451px;
-height: 97px;
+
 color: #FFFFFF;
 padding-top: 14px;
 vertical-align: middle;
 padding-bottom: 14px;
-padding-right: 34px;
+
 
 }
 .foto_forwho {
 width: 122px;
 height: 125px;
-padding-right: 16px;
+
 padding-top: 0px;
 padding-top: 0px;
 vertical-align: middle;
@@ -354,29 +361,34 @@ color: #2203E4;
         padding-right: 80px;
         padding-bottom: 123px;
     }
-    .column1_,
-    .column2 {
-        display: inline-block;
+    .content {
+        width: 1103px;
         padding-top: 44px;
-
+        height: 296px;
     }
+    .hcontent {
+        padding-bottom: 12px;
+    }
+    
     .column1_ {
         width: 611px;
-        padding-right: 48px;
-
+       
     }
     .column2 {
         width: 444px;
-height: 296px;
+        vertical-align: middle;
+
     }
     .block1 {
-        
-        padding: 24px;
+padding-top: 12px;
+padding-bottom: 12px;
         width: 611px;
         color: #575757;
         text-align: center;
+        
 
     }
+
     
     .Opinions {
         background-color: #FFBE0B;
@@ -400,16 +412,7 @@ border-radius: 12px;
 margin: 0 auto;
     }
 
-    .comment,
-    .name-block,
-    .stars2,
-    .p-name,
-    .name1,
-    .name,
-    .par      {
-        display: inline-block;
 
-    }
     .comment {
             text-align: right;
         width: 47px;
@@ -439,11 +442,15 @@ padding-bottom: 60px;
     width: 158px;
 height: 26px;
 }
+.rev {
+    vertical-align: middle;
+}
 .name1 {
     width: 333px;
 height: 57px;
 padding-bottom: 16px;
 }
+
 
 .start {
    padding-left: 155px;
@@ -460,30 +467,45 @@ padding-bottom: 16px;
     width: 327.05px;
     height: 321.38px;
     
+    
+}
+.hstart {
+    color: #2203E4;
+    width: 288px;
+height: 43px;
 
+/* Heading/H2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 120%;
+}
+.reviews {
+    width: 269px;
+    
+    
+}
+.rev {
+    padding-top: 6px;
     
 }
 .title {
-    padding:  74px 155px;
+    padding:  73px 155px;
     width: 951.05px;
+    margin: 0 auto;
 }
-.im,
-.text2,
-.rev,
-.stars3 {
-    display: inline-block;
-    
-}
+
+
 
 .text2 {
 
-    padding-top: 73px;
-    padding-bottom: 73px;
-    padding-left: 13px;
- 
-    
+    width: 611px;
+   
     text-align: left;
     vertical-align: top;
+    padding-top: 73px;
 }
 
 
@@ -512,7 +534,7 @@ form{
     
 
 }
-.text-block {
+.text-block-form {
     margin-bottom: 28px;
         
 }
