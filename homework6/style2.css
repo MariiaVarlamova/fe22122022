@@ -79,7 +79,7 @@ ul li
 }
 
 .main {
-  background-image: url(/homework6/image/background.png);
+  background-image: url(./image/background.png);
   height: 1573px;
     background-repeat: no-repeat;
     background-position: top;
@@ -142,6 +142,7 @@ margin: 0 auto;
   padding-left: 14px;
   border: none;
   color: #FFFFFF;
+  text-transform: none;
   
 }
   .search-btn {
@@ -237,7 +238,7 @@ left: 897px;
 }
 .scroll::after {
   content: " ";
-  background-image: url(/homework6/image/arrow_downward_24px.png) ;
+  background-image: url(./image/arrow_downward_24px.png) ;
   position: absolute;
 width: 16px;
 height: 24px;
@@ -340,7 +341,7 @@ line-height: 32px;
     content: "";
     display:inline-block;
     vertical-align: middle;
-    background-image: url(/homework6/image/arrow_.png);
+    background-image: url(./image/arrow_.png);
     width: 24px;
     height: 16px;
     margin-left: 9px;
@@ -349,7 +350,7 @@ line-height: 32px;
 
 
 .bromo {
-  background-image: url(/homework6/image/bromo.png);
+  background-image: url(./image/bromo.png);
   width: 1461px;
   height: 985px;
   left: 1px;
